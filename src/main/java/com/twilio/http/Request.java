@@ -78,7 +78,8 @@ public class Request {
         final String region
     ) {
         this.method = method;
-        this.url = "https://" + domain + ".twilio.com" + uri;
+        //this.url = "https://" + domain + ".twilio.com" + uri;
+	this.url = "https://" + domain + ".textgrid.com" + uri;
         this.region = region;
         this.queryParams = new HashMap<>();
         this.postParams = new HashMap<>();
